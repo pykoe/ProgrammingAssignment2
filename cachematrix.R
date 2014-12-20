@@ -37,3 +37,12 @@ cacheSolve <- function(x, ...) {
         x$setinverse(inverse)
         inverse 
 }
+
+#a= c(4, 3)
+#b= c(3, 2)
+#dataset <- matrix(cbind(a,b),nrow=2,ncol=2)
+#print(solve(dataset))
+
+#specialM <- makeCacheMatrix(dataset)
+#cacheSolve(specialM)
+#cacheSolve(specialM)
